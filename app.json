@@ -1,0 +1,41 @@
+{
+    "name": "RPLAY ™ TORRANT LEECH BOT",
+    "description": "A Telegram Leecher bot હા હું ગુજરતી. ",
+    "keywords": [
+      "telegram",
+      "pyrogram",
+      "torrent",
+      "3",
+      "leecher"
+    ],
+    "website": "https://github.com/azamaulanaaa/botkaca",
+    "repository": "https://github.com/azamaulanaaa/botkaca",
+    "logo": "https://telegra.ph/file/908e8d3dcbd9704d22a3b.jpg",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "get this value from @BotFather",
+        "value": ""
+      }
+    
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+   }
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }, {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  }],
+ "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
