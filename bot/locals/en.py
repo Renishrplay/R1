@@ -3,7 +3,7 @@ from bot.locals import Local
 LOCAL = Local({
     'WRONG_ROOM' : 'I a\'m not suppose to be here.\nID : <code>{CHAT_ID}</code>',
     'WELCOME_MESSAGE' : "Hi 👋!\nI'm <b>RPLAY ™ <b> \n<code>RENISH torrant leech bot</code>!\n@torrent_rplay_bot\n🌟I CAN LEECH MAGNET LINK & MAGNET FILE\n TO VIDEO & FILE\n🌟not made for personal use\n🌟Made by @renishrplay\n🌟 https://t.me/rplay_mirror go here to use me.\n<code>હા હું ગુજરતી.</code> \n<code>RENISH</code>\n\n<code>રેનીશ</code>",
-    'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
+    'PASS_REQUIRED' : '\n\nUse <code>/this is not 🚫 for you</code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : '🌟Name: <code>{name}</code>\n\n🌟Status: {status}\n\n🌟ID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "🔎Checking Your Link....",
