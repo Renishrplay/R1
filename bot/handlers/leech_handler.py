@@ -130,7 +130,7 @@ async def progress_dl(message : Message, aria2_api : aria2.aria2, gid : int, pre
                             InlineKeyboardMarkup([[
                                 InlineKeyboardButton(
                                     COMMAND.CANCEL_LEECH,
-                                    callback_data=COMMAND.CANCEL_LEECH + "" + download.gid,
+                                    callback_data=COMMAND.CANCEL_LEECH + " " + download.gid,
                                     
                                 )
                             ]])
