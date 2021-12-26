@@ -127,10 +127,10 @@ async def progress_dl(message : Message, aria2_api : aria2.aria2, gid : int, pre
                     await message.edit(
                         text,
                         reply_markup=
-                            InlineurlMarkup([[
-                                InlineurlButton(
+                            InlineKeyboardMarkup([[
+                                InlineKeyboardButton(
                                     COMMAND.CANCEL_LEECH,
-                                    url="https://t.me/cancel_commend"COMMAND.CANCEL_LEECH" + " " + download.gid,,
+                                    callback_data=COMMAND.CANCEL_LEECH + "https://t.me/cancel_commend" + download.gid,
                                     
                                 )
                             ]])
