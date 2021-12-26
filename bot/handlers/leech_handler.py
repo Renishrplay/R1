@@ -130,7 +130,7 @@ async def progress_dl(message : Message, aria2_api : aria2.aria2, gid : int, pre
                             InlineurlMarkup([[
                                 InlineurlButton(
                                     COMMAND.CANCEL_LEECH,
-                                    url="https://t.me/cancel_commend",
+                                    url="https://t.me/cancel_commend"COMMAND.CANCEL_LEECH" + " " + download.gid,,
                                     
                                 )
                             ]])
