@@ -81,7 +81,7 @@ COMMAND = Config({
     'PASSWORD' : 'pass',
     'HELP' : 'help',
     'LEECH' : 'leech',
-    'LEECH' : 'leech@torrent_rplay_bot',
+    'LEECH' : 'leech@torrent_rplay_bot', 
     'CANCEL_LEECH' : 'cancel',
     'LEECH_LIST' : 'list',
     'UPLOAD_AS_DOC' : 'upload_as_doc',
